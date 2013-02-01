@@ -33,8 +33,6 @@ FW_PACKAGE_BUILD_DEPENDS="jscoverage [!darwin-i386],
                           yuicompressor"
 FW_PACKAGE_BUILD_CONFLICTS=""
 
-FW_SUBVERSION_TAG_ROOT="https://fwtemplates.googlecode.com/svn/tags/fw-template-javascript"
-
 FW_DUPLOAD_ARGS=${FW_DUPLOAD_ARGS-"-t dukeshardy"}
 
 # scp+createrepo is used for submitting rpm packages to a package archive
